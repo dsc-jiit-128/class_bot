@@ -1,5 +1,6 @@
 import speech_recognition as sr
 import os
+import webbrowser as wb
 
 path = "./require"
 
@@ -18,6 +19,9 @@ for i in lines:
 
 flag = 0
 
+link = input("Please provide the Goole Meet link\n")
+wb.open_new(link)
+
 while True:
     flag = 0
     with sr.Microphone() as source :
@@ -33,7 +37,7 @@ while True:
                     if str.find(j)!=-1:
                         flag =1
                         break
-                
+
             if(flag == 1) :
                 print("Name found")
             else :
