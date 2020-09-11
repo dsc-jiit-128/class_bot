@@ -1,5 +1,10 @@
+import pyaudio
 import speech_recognition as sr
 import os
+import time
+import wave
+
+import  recording
 
 path='./require/'
 if(os.path.exists(path+"names.txt")):
@@ -47,4 +52,27 @@ while(True):
         f.write((names[a-1]+os.linesep).lower())
     else:
         print("The name already exists or invalid index number entered!!\n")
+
+input("PRESS ENTER TO CONTINUE!!\n")
+print("Excellent!!\nNow please be ready to record your audio that will answer your roll call!!\n")
+
+recording.start_recording()
+
+print("WE ARE ALL SET UP NOW!!\n")
+
 f.close()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

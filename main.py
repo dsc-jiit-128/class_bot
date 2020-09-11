@@ -2,9 +2,11 @@ import speech_recognition as sr
 import os
 import webbrowser as wb
 import time
+from pydub import AudioSegment
+from pydub.playback import play
 
 path = "./require"
-
+roll_call = AudioSegment.from_wav("./require/roll_call.wav")
 r1 = sr.Recognizer()
 
 f = open(path+"/names.txt",'r')
@@ -25,6 +27,7 @@ flag = 0
 found_names = []
 
 while True:
+    flag = 0
     f1 = open('./temp/tempfile1.txt','+r')
     f2 = open('./temp/tempfile2.txt','+r')
     f3 = open('./temp/tempfile3.txt','+r')
@@ -40,10 +43,13 @@ while True:
     
     for i in names:
         if(i in found_names) :
-            print("Name found")
+            flag = 1
+            play(roll_call)
             break
-        else :
-            print("Name not found")
+    if(flag == 0):
+        print("Name Not Found\n")
+    else:
+        time.sleep(2)
    
     f1.close()
     f2.close()

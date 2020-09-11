@@ -23,5 +23,5 @@ while True:
                     j = str(j)
                     f.write(j+'\n')
         except Exception as e:
-            print("No one speaking on 1")
+            continue
     f.close()

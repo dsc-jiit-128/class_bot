@@ -1,3 +1,3 @@
 #!/bin/bash
 
-python ./setup/nameset.py;
+python ./setup/initialize.py;
