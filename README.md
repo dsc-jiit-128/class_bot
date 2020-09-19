@@ -1,8 +1,12 @@
 # Meet-Bot
 
-Bot that will help you attend your online google meets!!
+**Bot that will help you attend your online google meets!!**
 
-Run ./configure.sh and follow the instructions for setup
+**Dependencies**
+ -`pydub`
+ -`pyaudio`
+    -`pyaudio Requires portaudio (C++ library) that you'll have to build from source (*http://portaudio.com/docs/v19-doxydocs/tutorial_start.html*)`
+ -`speechrecognition`
+ -`wave`
 
-Run ./main.py for the bot to work
-
+**To channel the audio to you mic use pulse audio**
