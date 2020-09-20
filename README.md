@@ -30,9 +30,12 @@
    - You can close the terminal window after this and all the logs will be present in `nohup.txt`.
    - Open Pulse Audio GUI and click on `Recording Tab`.
    - Select the sink for 3 python programs as `Monitor of Temp_sink`.
+     <img src="./images/1.jpeg">
    - Go to `Playback` Tab.
    - Select `Temp_sink` as device for all the applications whose sound you want to monitor.
+     <img src="./images/2.jpeg">
    - Select `Analog Built-in-stereo-output` as device for all the applications whose sound you dont want to monitor and want to listen.
+     <img src="./images/3.jpeg">
    - **Voila**, Now you can listen to music or do some side projects and whenever your name gets called, you'll be **Notified**.
    
  <h4>Footnotes :-</h4>
