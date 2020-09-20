@@ -53,10 +53,10 @@ while(True):
     else:
         print("The name already exists or invalid index number entered!!\n")
 
-input("PRESS ENTER TO CONTINUE!!\n")
-print("Excellent!!\nNow please be ready to record your audio that will answer your roll call!!\n")
+#input("PRESS ENTER TO CONTINUE!!\n")
+#print("Excellent!!\nNow please be ready to record your audio that will answer your roll call!!\n")
 
-recording.start_recording()
+#recording.start_recording()
 
 print("WE ARE ALL SET UP NOW!!\n")
 

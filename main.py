@@ -45,11 +45,11 @@ while True:
         i = i.rstrip('\n')
         found_names.append(i)
 
-    #print(found_names)
+    print(found_names,'\n')
 
     if("present" in found_names):
         at+=1
-        #print("Present Found")
+        print("\nPresent Found")
 
     if(at_f == 0 and at >= 10):
         os.system(at_alert_cmd)
@@ -57,6 +57,7 @@ while True:
 
     for i in names:
         if(i in found_names) :
+            print("\nName Found")
             flag = 1
             os.system(alert_cmd)
             break
