@@ -1,5 +1,11 @@
 # Meet-Bot
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
+[![HitCount](http://hits.dwyl.com/dsc-jiit-128/class_bot.svg)](http://hits.dwyl.com/dsc-jiit-128/class_bot)
+![Python 3.8.5](https://img.shields.io/badge/Python-3.8.5-blue?style=flat&logo=python)
+[![GitHub stars](https://img.shields.io/github/stars/dsc-jiit-128/class_bot?color=green)](https://github.com/dsc-jiit-128/class_bot/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/dsc-jiit-128/class_bot?color=green)](https://github.com/dsc-jiit-128/class_bot/network)
+[![GitHub issues](https://img.shields.io/github/issues/dsc-jiit-128/class_bot)](https://github.com/dsc-jiit-128/class_bot/issues)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?)](https://github.com/dsc-jiit-128/class_bot/issues)
 
 An Automated Background Python program that notifies you during your meetings.  
 
@@ -47,6 +53,13 @@ An Automated Background Python program that notifies you during your meetings.
 
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/you-didnt-ask-for-this.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/works-on-my-machine.svg)](https://forthebadge.com)
 
 **[knightxerons (Manas Dalakoti)](https://github.com/knightxerons)**
-<h2>Developers Student Club JIIT 128</h2>
+<h2>Developer Student Clubs JIIT 128</h2>
+
+<h3>PLEASE NOTE:</h3>
+<p>For legal reasons,<br>
+This bot was purely made for <b><i>educational</i></b> purposes only and is meant as a fun way to learn and implement the libraries/packages mentioned above. <br>
+This bot is not meant to be used in any malicious way and we are not responsible for anyone actually using this bot to wrongfully attend online classes on his/her/their behalf.</p>
