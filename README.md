@@ -10,8 +10,8 @@ This is a python program that noitifes you whenever your name is being called du
       1. Download the file from http://www.portaudio.com/archives/pa_stable_v190600_20161030.tgz.
       2. Unzip the file.
       3. Run `./configure` in the root of the extracted folder.
-      4. Run `sudo make` as in the root folder.
-      5. Run `sudo make install` as in the root folder.
+      4. Run `sudo make` in the root folder.
+      5. Run `sudo make install` in the root folder.
       6. Run `sudo ldconfig` in the root folder.
 
  **Python Dependencies :-**
