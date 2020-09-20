@@ -6,3 +6,4 @@ Run ./configure.sh and follow the instructions for setup
 
 Run ./main.py for the bot to work
 
+
