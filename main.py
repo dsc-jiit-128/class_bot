@@ -46,12 +46,15 @@ while True:
         found_names.append(i)
 
     print(found_names,'\n')
-
+    
+    if("attendance" in found_names):
+        os.system(at_alert_cmd)
+            
     if("present" in found_names):
         at+=1
         print("\nPresent Found")
 
-    if(at_f == 0 and at >= 10):
+    if(at_f == 0 and at >= 5):
         os.system(at_alert_cmd)
         at_f = 1
 
