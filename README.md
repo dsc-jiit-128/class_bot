@@ -45,6 +45,7 @@ This is a python program that noitifes you whenever your name is being called du
    - Run `./clearall.sh` to remove all the temporary created files and modules and set everything back to **Normal**.
    - Give all the Bash Scripts **Execute** premission using `sudo chmod +x ./<filename>` where filename is `run.sh`, `configure.sh`, `clearall.sh` *(Avoid < >)*.
 
+
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 
 **[knightxerons (Manas Dalakoti)](https://github.com/knightxerons)**
