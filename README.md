@@ -38,7 +38,7 @@
      <img src="./images/3.jpeg">
    - **Voila**, Now you can listen to music or do some side projects and whenever your name gets called, you'll be **Notified**.
    
- <h4>Footnotes :-</h4>
+ **Footnotes :-**
    - Run `./clearall.sh` to remove all the temporary created files and modules and set everything back to **Normal**.
    - Give all the Bash Scripts **Execute** premission using `sudo chmod +x ./<filename>` where filename is `run.sh`, `configure.sh`, `clearall.sh` *(Avoid < >)*.
   
