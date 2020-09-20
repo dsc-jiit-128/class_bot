@@ -1,5 +1,4 @@
 # Meet-Bot
-[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
 [![HitCount](http://hits.dwyl.com/dsc-jiit-128/class_bot.svg)](http://hits.dwyl.com/dsc-jiit-128/class_bot)
 ![Python 3.8.5](https://img.shields.io/badge/Python-3.8.5-blue?style=flat&logo=python)
 [![GitHub stars](https://img.shields.io/github/stars/dsc-jiit-128/class_bot?color=green)](https://github.com/dsc-jiit-128/class_bot/stargazers)
@@ -52,9 +51,9 @@ An Automated Background Python program that notifies you during your meetings.
    - Give all the Bash Scripts **Execute** premission using `sudo chmod +x ./<filename>` where filename is `run.sh`, `configure.sh`, `clearall.sh` *(Avoid < >)*.
 
 
+[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/you-didnt-ask-for-this.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/works-on-my-machine.svg)](https://forthebadge.com)
 
 **[knightxerons (Manas Dalakoti)](https://github.com/knightxerons)**
 <h2>Developer Student Clubs JIIT 128</h2>
