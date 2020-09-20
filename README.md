@@ -1,5 +1,7 @@
 # Meet-Bot
 
+This is a python program that noitifes you whenever your name is being called during a meeting or a call. 
+
 ### Installation :- ###
 
  **C++ Dependencies :-**
