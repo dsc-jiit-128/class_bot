@@ -1,7 +1,7 @@
 # Meet-Bot
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
 
-This is a python program that noitifes you whenever your name is being called during a meeting or a call. 
+An Automated Background Python program that notifies you during your meetings.  
 
 ### Installation :- ###
 
@@ -30,7 +30,7 @@ This is a python program that noitifes you whenever your name is being called du
  **Configuration :-**
    - Run `./configure.sh` and follow the instructions *(You only have to do this once)* .
    - Run `./ruh.sh` to start the program *(Every time you reboot or run `./clearall.sh`)*.
-   - You can close the terminal window after this and all the logs will be present in `nohup.txt`.
+   - You can close the terminal window after this and all the logs will be present in `nohup.out`.
    - Open Pulse Audio GUI and click on `Recording Tab`.
    - Select the sink for 3 python programs as `Monitor of Temp_sink`.
      <img src="./images/1.jpeg">
