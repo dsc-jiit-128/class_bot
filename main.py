@@ -54,7 +54,7 @@ while True:
         at+=1
         print("\nPresent Found")
 
-    if(at_f == 0 and at >= 5):
+    if(at_f == 0 and at >= 4):
         os.system(at_alert_cmd)
         at_f = 1
 
