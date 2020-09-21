@@ -33,7 +33,7 @@ An Automated Background Python program that notifies you during your meetings.
   
  **Configuration :-**
    - Run `./configure.sh` and follow the instructions *(You only have to do this once)* .
-   - Run `./ruh.sh` to start the program *(Every time you reboot or run `./clearall.sh`)*.
+   - Run `./run.sh` to start the program *(Every time you reboot or run `./clearall.sh`)*.
    - You can close the terminal window after this and all the logs will be present in `nohup.out`.
    - Open Pulse Audio GUI and click on `Recording Tab`.
    - Select the sink for 3 python programs as `Monitor of Temp_sink`.
