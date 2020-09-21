@@ -7,6 +7,8 @@
 
 An Automated Background Python program that notifies you during your meetings.  
 
+  **OSX and Linux**
+
 ### Installation :- ###
 
  **C Dependencies :-**
