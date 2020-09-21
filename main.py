@@ -26,11 +26,11 @@ flag = 0
 
 found_names = []
 alert_cmd = "notify-send \"YOUR NAME IS BEING CALLED!!!\" \"Return to your meeting ASAP\"; aplay ./require/alert.wav"
-at_alert_cmd = "notify-send \"LOOKS LIKE ATTNEDENCE IS GOING ON!!!!!\" \"Return to your meeting ASAP\"; aplay ./require/alert.wav"
-
+at_alert_cmd = "notify-send \"LOOKS LIKE ATTNEDENCE IS GOING ON!!!\" \"Return to your meeting ASAP\"; aplay ./require/alert.wav"
+rerun_alert_cmd = "notify-send \"RUN THE BOT AGAIN IF YOU WANT TO CONTINUE\" \"./run.sh\"; aplay ./require/alert.wav"
+call_cmd = "./clearall.sh"
 
 at = 0
-at_f = 0
 
 while True:
     flag = 0
@@ -49,14 +49,17 @@ while True:
     
     if("attendance" in found_names):
         os.system(at_alert_cmd)
+        flag = 1
             
     if("present" in found_names):
         at+=1
         print("\nPresent Found")
+        flag = 1 
 
-    if(at_f == 0 and at >= 4):
+    if(at >= 4):
         os.system(at_alert_cmd)
-        at_f = 1
+        at = 0
+        flag = 1
 
     for i in names:
         if(i in found_names) :
@@ -64,8 +67,12 @@ while True:
             flag = 1
             os.system(alert_cmd)
             break
+    
     if(flag == 1):
-        time.sleep(2)
+        time.sleep(5)
+        os.system(rerun_alert_cmd)
+        time.sleep(1)
+        os.system(call_cmd)
 
     f1.close()
     f2.close()
