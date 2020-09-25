@@ -67,12 +67,6 @@ while True:
             flag = 1
             os.system(alert_cmd)
             break
-    
-    if(flag == 1):
-        time.sleep(5)
-        os.system(rerun_alert_cmd)
-        time.sleep(1)
-        os.system(call_cmd)
 
     f1.close()
     f2.close()
@@ -83,7 +77,13 @@ while True:
     f3 = open('./temp/tempfile3.txt','w').close()
 
     del found_names[:]
-
+    
+    if(flag == 1):
+        time.sleep(5)
+        os.system(rerun_alert_cmd)
+        time.sleep(1)
+        os.system(call_cmd)
+    
     time.sleep(4)
 
 
