@@ -70,8 +70,6 @@ while True:
     
     if(flag == 1):
         time.sleep(5)
-        os.system(rerun_alert_cmd)
-        time.sleep(1)
         os.system(call_cmd)
 
     f1.close()
