@@ -1,4 +1,4 @@
-# Meet-Bot
+# class_bot
 ![Hits](https://hitcounter.pythonanywhere.com/count/tag.svg?url=https%3A%2F%2Fgithub.com%2Fdsc-jiit-128%2Fclass_bot)
 [![GitHub stars](https://img.shields.io/github/stars/dsc-jiit-128/class_bot?color=green)](https://github.com/dsc-jiit-128/class_bot/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/dsc-jiit-128/class_bot?color=green)](https://github.com/dsc-jiit-128/class_bot/network)
