@@ -68,6 +68,10 @@ while True:
             os.system(alert_cmd)
             break
 
+    if(flag == 1):
+        time.sleep(5)
+        os.system(call_cmd)
+
     f1.close()
     f2.close()
     f3.close()
