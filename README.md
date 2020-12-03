@@ -68,7 +68,7 @@ An Automated Background Python program that notifies you during your meetings.
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/you-didnt-ask-for-this.svg)](https://forthebadge.com)
 
-**Star Developer:** **[knightxerons (Manas Dalakoti)](https://github.com/knightxerons)**
+**Star Developer:** **[manasd28 (Manas Dalakoti)](https://github.com/manasd28)**
 <h2>Developer Student Clubs JIIT 128</h2>
 
 <h3>PLEASE NOTE:</h3>
