@@ -1,5 +1,6 @@
 # class_bot
 ![Hits](https://hitcounter.pythonanywhere.com/count/tag.svg?url=https%3A%2F%2Fgithub.com%2Fdsc-jiit-128%2Fclass_bot)
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fdsc-jiit-128%2Fclass_bot&count_bg=%233D58C8&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=smash&edge_flat=false)](https://hits.seeyoufarm.com)
 [![GitHub stars](https://img.shields.io/github/stars/dsc-jiit-128/class_bot?color=green)](https://github.com/dsc-jiit-128/class_bot/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/dsc-jiit-128/class_bot?color=green)](https://github.com/dsc-jiit-128/class_bot/network)
 [![GitHub issues](https://img.shields.io/github/issues/dsc-jiit-128/class_bot)](https://github.com/dsc-jiit-128/class_bot/issues)
